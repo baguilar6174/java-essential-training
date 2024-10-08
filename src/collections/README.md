@@ -7,7 +7,7 @@ Data structures that hold a group of objects (elements)
 - Unique vs. duplication
 - Ordered vs. unordered
 - Java provides a collection framework (unified architecture that provides data structures and algorithms to manipulate them)
-- All of the interfaces and classes for the collection framework can be found in the `java.util` package
+- All the interfaces and classes for the collection framework can be found in the `java.util` package
 
 The most common ones are:
 
@@ -26,3 +26,10 @@ A class that contains algorithms for working with collections. Common algorithms
 - reverse
 - shuffle
 - sort
+
+**iterators**
+
+- A common task is to loop through the elements of a collection. One way to do this is with iterators.
+- The collection interface provides iterators.
+- The iterator method is provided by the collection interface. And it is available on all collections that inherit from collection.
+- `Map` does not inherit from the collection interface (does not have iterator method)

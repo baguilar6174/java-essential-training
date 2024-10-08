@@ -38,7 +38,7 @@ public class Main {
          * - Vector
          */
 
-        List<String> objects = new ArrayList<String>();
+        List<String> objects = new ArrayList<>();
 
         objects.add("pen");
         objects.add("table");
@@ -122,5 +122,6 @@ public class Main {
         System.out.println(mapKeys); // [banana, orange, lemon]
         System.out.println(values); // [105, 45, 25]
 
+        // ----------------------------------------------------------------------------------
     }
 }
