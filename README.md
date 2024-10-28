@@ -4,7 +4,7 @@
 
 ### POO
 
-- [Ïnheritance](./src/inheritance)
+- [Inheritance](./src/inheritance)
 - [Abstraction](./src/abstraction)
 - [Polymorphism](./src/polymorphism)
 
