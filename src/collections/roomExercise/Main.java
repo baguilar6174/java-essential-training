@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,18 +30,12 @@ public class Main {
         rooms.forEach(r -> System.out.println(r.getName()));
         */
 
-        rooms.stream()
-                .filter(new Predicate<Room>() {
-                    @Override
-                    public boolean test(Room room) {
-                        System.out.format("Testing %s with result %b%n", room.getName(), room.isPetFriendly());
-                        return room.isPetFriendly();
-                    }
-                }).forEach(new Consumer<Room>() {
-                    @Override
-                    public void accept(Room room) {
-                        System.out.println(room.getName());
-                    }
-                });
+        // Same operations using Lambda expressions
+        rooms.stream().filter(Room::isPetFriendly).forEach(room -> System.out.println(room.getName()));
+
+        // Generate a List using stream
+        Collection<Room> petFriendlyRooms = rooms.stream().filter(Room::isPetFriendly).toList();
+        double total = petFriendlyRooms.stream().mapToDouble(Room::getRate).sum();
+        System.out.println(total);
     }
 }
