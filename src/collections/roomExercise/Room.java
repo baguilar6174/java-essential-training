@@ -5,12 +5,11 @@ import java.util.Objects;
 public class Room {
 
     private String name;
-
     private String type;
-
     private int capacity;
-
     private double rate;
+    private boolean petFriendly;
+
 
     @Override
     public boolean equals(Object o) {
@@ -62,6 +61,14 @@ public class Room {
 
     public void setRate(double rate) {
         this.rate = rate;
+    }
+
+    public boolean isPetFriendly() {
+        return petFriendly;
+    }
+
+    public void setPetFriendly(boolean petFriendly) {
+        this.petFriendly = petFriendly;
     }
 
     public Room(String name, String type) {
