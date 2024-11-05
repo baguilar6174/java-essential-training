@@ -4,12 +4,15 @@
 
 ### POO
 
-- [Inheritance](./src/inheritance)
-- [Abstraction](./src/abstraction)
-- [Polymorphism](./src/polymorphism)
+#### [Inheritance](./src/inheritance)
+#### [Abstraction](./src/abstraction)
+#### [Polymorphism](./src/polymorphism)
 
 ### [Collections](./src/collections)
 ### [Interfaces](./src/interfaces)
+### [Memory management](./src/memory_management)
+
+---
 
 ## Stay in touch
 
