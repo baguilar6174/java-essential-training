@@ -1,4 +1,4 @@
-package collections.roomExercise;
+package collections.room_exercise;
 
 import java.util.Arrays;
 import java.util.Collection;

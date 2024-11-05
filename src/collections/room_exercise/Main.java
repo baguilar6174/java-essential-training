@@ -1,12 +1,8 @@
-package collections.roomExercise;
+package collections.room_exercise;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Iterator;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
