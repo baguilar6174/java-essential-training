@@ -1,6 +1,6 @@
 package algorithms;
 
-public final class StringsAlgorithms {
+public final class Strings {
 
     public static boolean isUpperCase(String text) {
         return text.chars().allMatch(Character::isUpperCase);
@@ -29,6 +29,7 @@ public final class StringsAlgorithms {
     public static String reverse(String text){
         /*
         // Option 1
+
         if(text == null || text.isEmpty()) return text;
         StringBuilder reversed = new StringBuilder(); // manage memory
         for(int i = text.length() - 1; i >= 0; i--) {
@@ -38,6 +39,7 @@ public final class StringsAlgorithms {
          */
 
         // Option 2
+
         StringBuilder reversed = new StringBuilder(text);
         return reversed.reverse().toString();
     }
