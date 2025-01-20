@@ -20,7 +20,7 @@ public interface Product {
 }
 ```
 
-Classes can implement multiple interfaces to achieve multiple inheritance.
+Classes can implement multiple interfaces to achieve multiple poo.polymorphism.inheritance.
 
 ```java
 public class ElectronicBook implements Product, DigitalFile {

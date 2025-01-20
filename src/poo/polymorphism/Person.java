@@ -1,6 +1,4 @@
-package inheritance;
-
-import java.util.Scanner;
+package poo.polymorphism;
 
 public class Person {
 

@@ -1,6 +1,6 @@
 # Inheritance
 
-Is where one class becomes an extension of another class. There are two parties involved in inheritance:
+Is where one class becomes an extension of another class. There are two parties involved in poo.polymorphism.inheritance:
 
 Parent (super, parent or base) class and Child (sub, child or derived) class
 

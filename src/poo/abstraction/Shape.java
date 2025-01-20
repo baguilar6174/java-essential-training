@@ -1,4 +1,4 @@
-package abstraction;
+package poo.abstraction;
 
 public abstract class Shape {
 

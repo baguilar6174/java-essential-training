@@ -19,7 +19,7 @@ If a method is overridden by the subclass, the polymorphic object will execute t
 ## Object Type Casting
 
 - The act of converting an object's type into a different type
-- Casting can be performed upward or downward in an inheritance tree.
+- Casting can be performed upward or downward in an poo.polymorphism.inheritance tree.
 
 ```java
 Animal dog = new Dog(); // implicit up cast

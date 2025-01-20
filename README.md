@@ -2,15 +2,17 @@
 
 ## Concepts
 
-### POO
+#### POO
 
-#### [Inheritance](./src/inheritance)
-#### [Abstraction](./src/abstraction)
-#### [Polymorphism](./src/polymorphism)
+- [Inheritance](./src/inheritance)
+- [Abstraction](./src/abstraction)
+- [Polymorphism](./src/polymorphism)
 
-### [Collections](./src/collections)
-### [Interfaces](./src/interfaces)
-### [Memory management](./src/memory_management)
+#### [Collections](./src/collections)
+#### [Interfaces](./src/interfaces)
+#### [Memory management](./src/memory_management)
+#### [Algorithms](./src/algorithms)
+#### [Functional programming](./src/functional)
 
 ---
 

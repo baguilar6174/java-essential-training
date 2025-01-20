@@ -1,4 +1,4 @@
-package polymorphism;
+package poo.inheritance;
 
 public class Dog extends Animal {
 

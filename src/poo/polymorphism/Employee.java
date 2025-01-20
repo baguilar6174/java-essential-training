@@ -1,6 +1,6 @@
-package inheritance;
+package poo.polymorphism;
 
-// extends word = inheritance (reusing code between related classes)
+// extends word = poo.polymorphism.inheritance (reusing code between related classes)
 public class Employee extends Person {
 
     // set an attribute as private = encapsulation

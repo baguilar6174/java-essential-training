@@ -1,4 +1,4 @@
-package polymorphism;
+package poo.inheritance;
 
 public class Animal {
     public void makeSound() {
