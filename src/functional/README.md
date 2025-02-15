@@ -1,5 +1,28 @@
 # Functional programming
 
+## Anonymous classes
+
+- It's a class that is defined and used at the same time, without giving it a name. 
+- Used when you need a class that you are only going to use once, such as to override methods of a class or interface, without having to create a complete class.
+
+```java
+interface Greeting {
+    void greet();
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Greeting greet = new Greeting() {
+            @override
+            public void greet() {
+                System.out.println("Hello");
+            }
+        };
+        greet.greet();
+    }
+}
+```
+
 ## Lambda expressions
 
 - It's a short way to write functions or blocks of code that you can pass as parameters to methods or use within collections. 
