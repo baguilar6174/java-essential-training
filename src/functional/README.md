@@ -26,3 +26,5 @@ public interface Runnable {
 - Make sure that the interface contains exactly one abstract method. 
 - The `@FunctionalInterface` annotation is optional, but it is good practice to use it.
 - Lambda expressions are used to implement the single abstract method of the functional interface in a concise way.
+
+> "If we have more than one method, complex logic or we need use inheritance, we must use anonymous classes. If we have only one method, we can use lambda functions."
