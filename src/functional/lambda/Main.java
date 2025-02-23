@@ -1,16 +1,15 @@
-package functional;
+package functional.lambda;
 
 public class Main {
     public static void main(String[] args) {
-
         /*
-        * First way (Traditional with a class)
-        *
-        * @Override
-        * public void emit(String name) {
-        *   System.out.println("Hello " + name + " from lambda!")
-        * }
-        * */
+         * First way (Traditional with a class)
+         *
+         * @Override
+         * public void emit(String name) {
+         *   System.out.println("Hello " + name + " from lambda!")
+         * }
+         * */
 
         /* Second way (using lambda expressions or anonymous functions)*/
         Messenger lambdaExpression = (String name) -> System.out.println("Hello " + name + " from lambda!");

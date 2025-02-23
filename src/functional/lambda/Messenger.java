@@ -1,4 +1,4 @@
-package functional;
+package functional.lambda;
 
 @FunctionalInterface
 public interface Messenger {

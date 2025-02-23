@@ -51,3 +51,14 @@ public interface Runnable {
 - Lambda expressions are used to implement the single abstract method of the functional interface in a concise way.
 
 > "If we have more than one method, complex logic or we need use inheritance, we must use anonymous classes. If we have only one method, we can use lambda functions."
+
+## Method Reference
+
+- A method reference allows you to use an existing method without having to write an anonymous function or lambda to execute it.
+- It is a more compact way to use lambdas when the code we want to reuse is already defined in some method. 
+- There are four main types of method references:
+  - **Static method reference:** uses a method that belongs to the class, not to an object.
+  - **Reference to an instance method of an object:** Uses a non-static method of an existing object.
+  - **Reference to an instance method of an arbitrary object:** Uses a non-static method of any object of a class.
+  - **Reference to a constructor:** Creates a new object by calling a constructor.
+  constructor.
