@@ -62,3 +62,14 @@ public interface Runnable {
   - **Reference to an instance method of an arbitrary object:** Uses a non-static method of any object of a class.
   - **Reference to a constructor:** Creates a new object by calling a constructor.
   constructor.
+
+## Streams
+
+### What's stream API?
+
+- It's a way to work with collections (such as lists and sets) in a more efficient and functional way.
+- Instead of manually iterating over the elements of a collection, you can use streams to perform operations such as filtering, transformation and reduction in a more declarative and concise manner.
+
+### What's an stream?
+
+It is a sequence of elements on which operations can be performed. It does not store the elements, but processes them fluidly and in real time.
